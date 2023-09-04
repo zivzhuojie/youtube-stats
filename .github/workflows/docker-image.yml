@@ -18,7 +18,7 @@ jobs:
       - run: npm run build --if-present
       - uses: mr-smithers-excellent/docker-build-push@v6
         with:
-            image: nawaf83/youtubereactapp
+            image: zhuojielim/youtubereactapp
             registry: docker.io
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
